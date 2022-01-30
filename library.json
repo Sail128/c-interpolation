@@ -1,0 +1,22 @@
+{
+    "name": "c-interpolation",
+    "version": "0.0.1",
+    "description": "A simple api interpolating a set of points",
+    "keywords": "interpolate, c",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Sail128/c-interpolation"
+    },
+    "authors":
+    [
+      {
+        "name": "Sail",
+        "email": "",
+        "url": ""
+      }
+    ],
+    "license": "Apache License V2",
+    "frameworks": "*",
+    "platforms": "*"
+  }
