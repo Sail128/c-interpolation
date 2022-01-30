@@ -44,6 +44,7 @@ float interpolate_edge(interpolate_t *interp, int edge)
             break;
         }
     }
+    return 0; // shouldn't be possible 
 }
 
 /**
@@ -76,6 +77,7 @@ float interpolate_step_left(interpolate_t *interp, float x)
             return ys[i - 1];
         }
     }
+    return 0; //shouldn't be possible
 }
 
 /**
@@ -109,6 +111,7 @@ float interpolate_step_right(interpolate_t *interp, float x)
             return ys[i];
         }
     }
+    return 0; //shouldn't be possible
 }
 
 /**
@@ -142,11 +145,12 @@ float interpolate_step_center(interpolate_t *interp, float x)
             // return ys[i-1];
             float mid = xs[i] - xs[i - 1];
             if (x > mid)
-                return xs[i];
+                return ys[i];
             else
-                return xs[i - 1];
+                return ys[i - 1];
         }
     }
+    return 0; //shouldn't be possible
 }
 
 /**

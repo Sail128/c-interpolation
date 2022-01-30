@@ -10,8 +10,9 @@ Raise an issue if you have improvement suggestions.
 ## TODO
 
 - Add some actual unit testing
-- add more methods
-- non floating point methods
+- Add general interpolate function
+- Add more methods
+- Non floating point methods
 
 ## usage
 
