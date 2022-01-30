@@ -179,6 +179,8 @@ float interpolate_linear(interpolate_t *interp, float x)
             return ((ys[i] - ys[i - 1]) * (x - xs[i - 1])) / (xs[i] - xs[i - 1]) + ys[i - 1];
         }
     }
+
+    return 0.0; // shouldn't reach here but theorethically not impossible.
 }
 
 float catmullSlope(float x[], float y[], int n, int i)
