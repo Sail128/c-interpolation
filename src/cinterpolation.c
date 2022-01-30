@@ -6,7 +6,7 @@
  * @date 2022-01-30
  *
  * @copyright Copyright (c) 2022
- *
+ * 
  */
 
 #include "cinterpolation.h"
@@ -181,7 +181,7 @@ float interpolate_linear(interpolate_t *interp, float x)
     }
 }
 
-catmullSlope(float x[], float y[], int n, int i)
+float catmullSlope(float x[], float y[], int n, int i)
 {
     if (x[i + 1] == x[i - 1])
         return 0;
