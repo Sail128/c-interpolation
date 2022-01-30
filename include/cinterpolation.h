@@ -37,8 +37,6 @@ float interpolate_step_left(interpolate_t *interp, float x);
 float interpolate_step_right(interpolate_t *interp, float x);
 float interpolate_step_center(interpolate_t *interp, float x);
 float interpolate_linear(interpolate_t *interp, float x);
-
-
-float get_interpolated_point(interpolate_t *, float x);
+float interpolate_catmulspline(interpolate_t *interp, float x);
 
 #endif // _C_INTERPOLATION_H_
