@@ -1,5 +1,7 @@
 # c-interpolation
 
+[![GitHub license](https://img.shields.io/github/license/Sail128/c-interpolation)](https://github.com/Sail128/c-interpolation/blob/main/LICENSE)
+
 functions to interpolate a list of values. 
 Pet project for implementing various interpolation methods which can run on restricted environments(mcu's)
 
